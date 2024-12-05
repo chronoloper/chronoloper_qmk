@@ -1,0 +1,106 @@
+layout: {qmk_keyboard: bastardkb/charybdis/4x6, layout_name: LAYOUT_charybdis_4x6}
+layers:
+  L0:
+  - ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  - ['0', /, TAB, '''', ',', ., P, Y, F, G]
+  - [C, R, L, \, LSFT, A, O, E, U, I]
+  - [D, H, T, N, S, '-', LCTL, 'LT(LAYER POINTER,SEMICOLON)', Q, J]
+  - [K, X, B, M, W, V, 'LT(LAYER POINTER,Z)', RSFT, MO(LAYER FN), SPC]
+  - [MO(LAYER LOWER), MO(LAYER RAISE), BSPC, LGUI, LALT, ENT]
+  L1:
+  - [ESC, '', '', '', '', '', '', '', '', '']
+  - ['', '', '', '', '', '', ONEPASS, '', '{', '7']
+  - - '8'
+    - '9'
+    - '}'
+    - '='
+    - {t: ▽, type: trans}
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+  - - '['
+    - '4'
+    - '5'
+    - '6'
+    - ']'
+    - ''
+    - {t: ▽, type: trans}
+    - ''
+    - ''
+    - ''
+  - - ''
+    - ''
+    - '0'
+    - '1'
+    - '2'
+    - '3'
+    - .
+    - ''
+    - {t: ▽, type: trans}
+    - ''
+  - - {t: ▽, type: trans}
+    - ''
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  L2:
+  - ['', '', '', '', '', '', '', '', '', '']
+  - ['', LOCK PC, '', '', '', WM 2 4 C, '', '', '', '']
+  - ['', '', '', '', '', '', WM 1 4 C, WM 3 4 C, WM 4 4 C, '']
+  - ['', WM 1 6 C, WM 2 6 C, WM 3 6 C, '', '', '', '', '', '']
+  - - ''
+    - ''
+    - ''
+    - WM 4 6 C
+    - WM 5 6 C
+    - WM 6 6 C
+    - ''
+    - ''
+    - {t: ▽, type: trans}
+    - ''
+  - - ''
+    - ''
+    - DEL
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - SCRNSHOT
+  L3:
+  - ['', '', '', '', '', '', '', '', '', '']
+  - ['', '', '', '', '', UP, '', '', '', '']
+  - [WM 2 4, '', '', '', '', '', LEFT, DOWN, RGHT, '']
+  - ['', WM 1 4, WM 3 4, WM 4 4, '', '', '', '', '', '']
+  - - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - {t: ▽, type: trans}
+    - ''
+  - - ''
+    - ''
+    - ''
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - ''
+  L4:
+  - [QK BOOT, EE CLR, '', '', '', '', '', '', '', '']
+  - [EE CLR, QK BOOT, '', '', '', '', '', '', '', '']
+  - ['', '', '', '', '', '', '', '', '', '']
+  - - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - {t: ▽, type: trans}
+    - ''
+    - ''
+  - ['', '', '', '', '', '', '', '', BTN2, BTN1]
+  - [BTN3, '', '', BTN1, '', '']
