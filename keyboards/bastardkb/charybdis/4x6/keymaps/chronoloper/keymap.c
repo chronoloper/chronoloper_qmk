@@ -1,6 +1,5 @@
 #include QMK_KEYBOARD_H
-/*#include "combos.c"
-*/
+#include "g/keymap_combo.h"
 /* Basic Charybdis setup from https://github.com/Bastardkb/bastardkb-qmk bkb-master branch
  * Some modifications made to layers
  */
@@ -9,6 +8,7 @@
 #    include "timer.h"
 #endif // CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_ENABLE
 
+// Keyboard layers
 enum charybdis_keymap_layers {
     LAYER_DVORAK = 0,
     LAYER_FN,

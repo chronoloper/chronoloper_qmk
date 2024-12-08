@@ -9,3 +9,6 @@
 *.hex
 *.bin
 *.uf2
+
+# Files with personal info
+combos.def
